@@ -1,0 +1,48 @@
+.dark {
+  background-color: #2d3748;
+  color: #a0aec0; /* Lighter text color for better visibility */
+}
+
+.dark nav {
+  border-bottom: 1px solid #ffffff; /* Adding border for navigation */
+}
+
+.dark nav button {
+  background-color: #4a5568;
+  color: #cbd5e0; /* Lighter text color for buttons */
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #4a5568;
+  color: #cbd5e0; /* Lighter text color for form elements */
+  border: 1px solid #ffffff; /* Adjusting border color */
+}
+
+.dark ul li {
+  border: 1px solid #ffffff; /* Adding border for todo items */
+}
+
+.dark ul li span,
+.dark ul li input,
+.dark ul li button {
+  color: #ffffff; /* Adjusting font color for todo items and buttons */
+}
+
+.container {
+  background-color: #ffffff; /* Light mode background color */
+}
+
+.dark .container {
+  background-color: #768399; /* Dark mode background color */
+}
+
+.ml-2 {
+  margin-left: 0.5rem; /* Light mode margin */
+  color: #000000; /* Light mode color */
+}
+
+.dark .ml-2 {
+  color: #000000; /* Dark mode color */
+}
